@@ -1,0 +1,26 @@
+{
+  "name": "budget_tracker",
+  "version": "1.0.0",
+  "description": "\"control your budget\"",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papy1974/budget_tracker.git"
+  },
+  "author": "papy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/papy1974/budget_tracker/issues"
+  },
+  "homepage": "https://github.com/papy1974/budget_tracker#readme"
+}
