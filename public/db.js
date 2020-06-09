@@ -31,7 +31,7 @@ function saveRecord(record) {
     // add record to your store with add method.
     store.add(record);
 }
-
+// started function checkDatase.
 function checkDatabase() {
     // open a transaction on your pending db
     const transaction = db.transaction(["pending"], "readwrite");
