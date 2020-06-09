@@ -20,7 +20,7 @@ request.onsuccess = function (event) {
 request.onerror = function (event) {
     console.log("Woops! " + event.target.errorCode);
 };
-
+// create function saverecord
 function saveRecord(record) {
     // make a transaction on the pending db with readwrite access
     const transaction = db.transaction(["pending"], "readwrite");
