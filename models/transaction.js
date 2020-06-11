@@ -1,23 +1,25 @@
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
-// create new Schema.
-const transactionSchema = new Schema({
+
+const transactionSchema = new Schema(
+  {
     name: {
-        type: String,
-        trim: true,
-        required: "Enter a name for transaction"
+      type: String,
+      trim: true,
+      required: "Enter a name for transaction"
     },
     value: {
-        type: Number,
-        required: "Enter an amount"
+      type: Number,
+      required: "Enter an amount"
     },
     date: {
-        type: Date,
-        default: Date.now
+      type: Date,
+      default: Date.now
     }
-});
+  }
+);
 
 const Transaction = mongoose.model("Transaction", transactionSchema);
-// export transaction
+
 module.exports = Transaction;
