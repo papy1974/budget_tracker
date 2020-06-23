@@ -2,6 +2,10 @@ Title
 
 Budget-tracker
 
+Languages and Tools used:
+
+Javascript, PWA , MongoDB , Express , Git , Heroku.
+
 here is the heroku link:https://blooming-basin-73485.herokuapp.com/
 
 Summary This project emphasizes the use of PWA using service-worker.js, manifest.jason  on an existing app that uses MongoDB, mongoose, morgan, and express, to dynamically update a budget track app
