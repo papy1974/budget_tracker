@@ -10,6 +10,9 @@ Javascript, PWA, MongoDB, Express, Git, Heroku.
 Using a previously created Budget Tracker application, a user is able to update information while online/offline. The updated application has offline access and functionality. The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, the total will be populated when brought back online.Summary This project emphasizes the use of PWA using service-worker.js, manifest.jason on an existing app that uses MongoDB, mongoose, morgan, and express, to dynamically update a budget track app.
 here is the Heroku link:https://blooming-basin-73485.herokuapp.com/
 
+![budget](https://user-images.githubusercontent.com/58053159/86626485-b9b60400-bf94-11ea-82a0-38cdf8f856aa.png)
+
+
 
 # Installation. 
 
