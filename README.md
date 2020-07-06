@@ -4,11 +4,12 @@ Budget-tracker
 # Languages and Tools used:
 
 Javascript, PWA, MongoDB, Express, Git, Heroku.
-here is the Heroku link:https://blooming-basin-73485.herokuapp.com/
 
 # Objective and Description.
 
 Using a previously created Budget Tracker application, a user is able to update information while online/offline. The updated application has offline access and functionality. The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, the total will be populated when brought back online.Summary This project emphasizes the use of PWA using service-worker.js, manifest.jason on an existing app that uses MongoDB, mongoose, morgan, and express, to dynamically update a budget track app.
+here is the Heroku link:https://blooming-basin-73485.herokuapp.com/
+
 
 # Installation. 
 
